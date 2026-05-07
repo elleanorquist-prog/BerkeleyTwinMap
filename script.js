@@ -45,7 +45,7 @@ const coordinates = e.features[0].geometry.coordinates.slice();
     });
 // 1. Get the element and set initial state (optional, but good practice)
 const myElement = document.getElementById('intro');
-myElement.style.transition = 'opacity 0.5s ease-in-out'; // Smooth transition
+myElement.style.transition = 'opacity 15s ease-in-out'; // Smooth transition
 myElement.style.opacity = 1; // Starts visible
 
 // 2. Listen for map movement
