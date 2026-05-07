@@ -1,0 +1,28 @@
+body {
+  cursor: auto;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-size: cover; /* Covers the entire element */
+  background-position: 50px 50px; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#customCursor {
+  position: fixed; /* Keep it in the viewport */
+  pointer-events: none; /* Allow clicks to pass through */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  border-radius: 3px;
+  z-index: 9999; /* Ensure it's on top */
+  transform: translate(-50%, -50%); /* Center the text on the cursor position */
+}
